@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea - renders renders correctly - mount 1`] = `ReactWrapper {}`;
+
+exports[`TextArea - renders renders correctly - render 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "hfdc-textarea",
+      "maxlength": "Infinity",
+      "placeholder": "placeholder",
+      "rows": "1",
+      "style": "resize:none",
+    },
+    "children": Array [
+      Object {
+        "data": "defaultValue",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "text",
+      },
+    ],
+    "name": "textarea",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+      "maxlength": undefined,
+      "placeholder": undefined,
+      "rows": undefined,
+      "style": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+      "maxlength": undefined,
+      "placeholder": undefined,
+      "rows": undefined,
+      "style": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;

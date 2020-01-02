@@ -1,0 +1,80 @@
+.hfdc-popconfirm{
+  box-sizing: border-box;
+  position: relative;
+.popTip{
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -105px;
+  left: 0;
+  margin-top:10px;
+  width: 250px;
+  min-height: 90px;
+  background-color: rgba(255,255,255,.8);
+  font-size: 14px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  .arr{
+    box-sizing: border-box;
+    position: absolute;
+    top: -4.5px;
+    left: 10%;
+    transform: translateX(-50%) rotate(45deg);
+    display: block;
+    width: 8.5px;
+    height: 8.5px;
+    background: transparent;
+    border-style: solid;
+    border-width: 4px;
+    border-top-color: #fff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #fff;
+    box-shadow: -2px -2px 5px rgba(0,0,0,0.06);
+  }
+  .content{
+    box-sizing: border-box;
+    min-width: 249px;
+    min-height: 52px;
+    max-height: 70px;
+    overflow: hidden;
+    padding: 10px 10px;
+    line-height: 15px;
+    font-size: 15px;
+  }
+  .action{
+    box-sizing: border-box;
+    width: 240px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    button{
+      text-align: center;
+      // line-height: 28px;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      min-width: 50px;
+      height: 26px;
+      margin-right: 10px;
+      margin-bottom: 2px;
+      color: rgba(0,0,0,0.65);
+      outline: none;
+      &:hover{
+        color: #40a9ff;
+        border: 1px solid #40a9ff;
+      }
+      &:last-child{
+        &:hover{
+          background-color: #40a9ff;
+        }
+        background-color: #1890ff;
+        margin-right: 5px;
+        border: 1px solid transparent;
+        color: #fff;
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,12 @@
+.abandon/
+build/
+es/
+lib/
+src/components/**/__test__/
+src/components/**/__stories__/
+src/stories/
+
+babel.config.js
+jest.config.js
+commitlint.config.js
+node_modules/

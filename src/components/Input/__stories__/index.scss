@@ -1,0 +1,36 @@
+$prefix: 'rc-input';
+
+.#{$prefix}{
+  width: 300px;
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  margin: 30px auto;
+  border: 1px solid orange;
+  border-radius: 4px;
+  outline: 0;
+}
+
+$prefix-m: 'hp-m-input';
+
+.#{$prefix-m} {
+  display: block;
+  width: 100%;
+  height: auto;
+  outline: 0;
+  user-select: text;
+  padding: 0;
+  margin: 50px auto 0;
+  &:focus{
+    outline: none;
+  };
+  resize:none;
+  border: 1px solid lightgrey;
+  font-size: 15px;
+  color: #232931;
+  &::placeholder,
+  &::-webkit-input-placeholder{
+    color: #8A8F9B;
+  };
+  width: 375px;
+}

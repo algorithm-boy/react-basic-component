@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload renders correctly - mount 1`] = `ReactWrapper {}`;
+
+exports[`Upload renders correctly - render 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "data": "上传按钮",
+        "next": Object {
+          "attribs": Object {
+            "accept": "",
+            "class": "hfdc-upload",
+            "disabled": "",
+            "type": "file",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "
+            .hfdc-upload {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              font-size: 0;
+              cursor: not-allowed;
+            }
+            .hfdc-upload-adapt-ie {
+              z-index: 99;
+              font-size: 100px;
+            }
+          ",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "style",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": [Circular],
+            "type": "style",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "accept": undefined,
+            "class": undefined,
+            "disabled": undefined,
+            "type": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "accept": undefined,
+            "class": undefined,
+            "disabled": undefined,
+            "type": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "text",
+      },
+      Object {
+        "attribs": Object {
+          "accept": "",
+          "class": "hfdc-upload",
+          "disabled": "",
+          "type": "file",
+        },
+        "children": Array [],
+        "name": "input",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "
+            .hfdc-upload {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              font-size: 0;
+              cursor: not-allowed;
+            }
+            .hfdc-upload-adapt-ie {
+              z-index: 99;
+              font-size: 100px;
+            }
+          ",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "style",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "style",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "parent": [Circular],
+        "prev": Object {
+          "data": "上传按钮",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "text",
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "accept": undefined,
+          "class": undefined,
+          "disabled": undefined,
+          "type": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "accept": undefined,
+          "class": undefined,
+          "disabled": undefined,
+          "type": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "data": "
+            .hfdc-upload {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              font-size: 0;
+              cursor: not-allowed;
+            }
+            .hfdc-upload-adapt-ie {
+              z-index: 99;
+              font-size: 100px;
+            }
+          ",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+        ],
+        "name": "style",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "accept": "",
+            "class": "hfdc-upload",
+            "disabled": "",
+            "type": "file",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": Object {
+            "data": "上传按钮",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "accept": undefined,
+            "class": undefined,
+            "disabled": undefined,
+            "type": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "accept": undefined,
+            "class": undefined,
+            "disabled": undefined,
+            "type": undefined,
+          },
+        },
+        "type": "style",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+    ],
+    "name": "button",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {},
+    "x-attribsPrefix": Object {},
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`Upload renders correctly - shallow 1`] = `ShallowWrapper {}`;

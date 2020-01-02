@@ -1,0 +1,13 @@
+<script>
+  document.title = "HP-RC-BASIC";
+  var observer = new MutationObserver(function(mutations) {
+    if (document.title.match(/Storybook$/)) {
+      document.title = "HP-RC-BASIC";
+    }
+  }).observe(document.querySelector("title"), {
+    childList: true,
+    subtree: true,
+    characterData: true
+  });
+</script>
+<link rel="icon" type="image/x-icon" href="http://assets-m.hoopchina.com.cn/touch/static/common/images/hupu_favicon.ico">
